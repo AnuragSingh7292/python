@@ -1,0 +1,5 @@
+num1,num2,num3 = map(int,input("Enter the three number : ").split())
+ascending_order = sorted([num1 ,num2, num3])
+descending_order = sorted([num1,num2,num3], reverse=True)
+print(ascending_order)
+print(descending_order)
